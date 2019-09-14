@@ -124,7 +124,9 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="webform_sports_car_rental_review_form.aspx" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="html_sports_car_rental_review_form.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -207,6 +209,13 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="webform_sports_car_rental_review_form.aspx.cs">
+      <DependentUpon>webform_sports_car_rental_review_form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webform_sports_car_rental_review_form.aspx.designer.cs">
+      <DependentUpon>webform_sports_car_rental_review_form.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
