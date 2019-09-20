@@ -13,6 +13,10 @@
             <input type="text" id="reviewer_fullname" name="reviewer_fullname" placeholder="Enter your name" />
         </section>
         <section>
+            <label for="reviewer_email">Email</label>
+            <input type="text" id="reviewer_email" name="reviewer_email" placeholder="Enter your email" />
+        </section>
+        <section>
             <label>Car's make</label>
             <div>
                 <input type="radio" id="car_make_option_1" name="sportscar_make" value="chevrolet" /><label for="car_make_option_1">Chevrolet</label>
@@ -31,14 +35,18 @@
             </div>
         </section>
         <section>
+            <label for="reviewer_rent_days">For how many days you did rent?</label>
+            <input type="text" id="reviewer_rent_days" name="reviewer_rent_days" placeholder="Enter days" />
+        </section>
+        <section>
             <label>Satisfied with?</label>
-            <div><input type="checkbox" value="drivingexperience" id="reviewer_satisfied_with_1" name="reviewer_satisfied_with_1" /><label for="reviewer_satisfied_with_1">Driving Experience</label></div>
+            <div><input type="checkbox" value="driving_experience" id="reviewer_satisfied_with_1" name="reviewer_satisfied_with_1" /><label for="reviewer_satisfied_with_1">Driving Experience</label></div>
             <div><input type="checkbox" value="comfort" id="reviewer_satisfied_with_2" name="reviewer_satisfied_with_2" /><label for="reviewer_satisfied_with_2">Comfort</label></div>
-            <div><input type="checkbox" value="valueformoney" id="reviewer_satisfied_with_3" name="reviewer_satisfied_with_3" /><label for="reviewer_satisfied_with_3">Value for money</label></div>
+            <div><input type="checkbox" value="value_for_money" id="reviewer_satisfied_with_3" name="reviewer_satisfied_with_3" /><label for="reviewer_satisfied_with_3">Value for money</label></div>
             <div><input type="checkbox" value="styling" id="reviewer_satisfied_with_4" name="reviewer_satisfied_with_4" /><label for="reviewer_satisfied_with_4">Styling</label></div>
         </section>
         <section>
-            <label>Which are the feature you like the most?</label>
+            <label>Which features do you like the most?</label>
             <div><input type="checkbox" value="safety_features" id="car_feature_1" name="car_feature_1" /><label for="car_feature_1">Safety features</label></div>
             <div><input type="checkbox" value="handling" id="car_feature_2" name="car_feature_2" /><label for="car_feature_2">Handling</label></div>
             <div><input type="checkbox" value="audio_system" id="car_feature_3" name="car_feature_3" /><label for="car_feature_3">Audio System</label></div>
@@ -48,6 +56,7 @@
         <section>
             <label for="future_car_rental_survey">Would you rent this car again?</label>
             <select id="future_car_rental_survey" name="future_car_rental_survey">
+                <option value="yes">--Select--</option>
                 <option value="yes">Yes</option>
                 <option value="no">No</option>
                 <option value="notdecided">Not decided</option>
@@ -56,23 +65,26 @@
         <section>
             <label>Please rate your Overall Experience</label>
             <div>
-                <input type="radio" id="car_rental_rate_option_1" name="car_rental_rate" value="verybad" /><label for="car_rental_rate_option_1">Very Bad</label>
+                <input type="radio" id="car_rental_satisfaction_option_1" name="car_rental_satisfaction" value="very_bad" /><label for="car_rental_satisfaction_option_1">Very Bad</label>
             </div>
             <div>
-                <input type="radio" id="car_renal_rate_option_2" name="car_rental_rate" value="bad" /><label for="car_renal_rate_option_2">Bad</label>
+                <input type="radio" id="car_rental_satisfaction_option_2" name="car_rental_satisfaction" value="bad" /><label for="car_rental_satisfaction_option_2">Bad</label>
             </div>
             <div>
-                <input type="radio" id="car_renal_rate_option_3" name="car_rental_rate" value="good" /><label for="car_renal_rate_option_3">Good</label>
+                <input type="radio" id="car_rental_satisfaction_option_3" name="car_rental_satisfaction" value="good" /><label for="car_rental_satisfaction_option_3">Good</label>
             </div>
             <div>
-                <input type="radio" id="car_renal_rate_option_4" name="car_rental_rate" value="verygood" /><label for="car_renal_rate_option_4">Very Good</label>
+                <input type="radio" id="car_rental_satisfaction_option_4" name="car_rental_satisfaction" value="average" /><label for="car_rental_satisfaction_option_4">Average</label>
             </div>
             <div>
-                <input type="radio" id="car_renal_rate_option_5" name="car_rental_rate" value="excellent" /><label for="car_renal_rate_option_5">Excellent</label>
+                <input type="radio" id="car_rental_satisfaction_option_5" name="car_rental_satisfaction" value="very_good" /><label for="car_rental_satisfaction_option_5">Very Good</label>
+            </div>
+            <div>
+                <input type="radio" id="car_rental_satisfaction_option_6" name="car_rental_satisfaction" value="excellent" /><label for="car_rental_satisfaction_option_6">Excellent</label>
             </div>
         </section>
         <section>
-            <label for="reviewer_suggestion">Any Suggestion</label>
+            <label for="reviewer_suggestion">Any Suggestion(optional)</label>
             <textarea id="reviewer_suggestion" name="reviewer_suggestion" placeholder="Write your sugesstion here.." rows="4" cols="50"></textarea>
         </section>
         <section>
