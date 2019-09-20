@@ -31,34 +31,34 @@ namespace n1351009_assignmnet1
                     submitted_review_summary.InnerHtml += "Name: " + Reviewer_Name + "<br>";
                     submitted_review_summary.InnerHtml += "Email: " + Reviewer_Email + "<br>";
                     submitted_review_summary.InnerHtml += "Car's Make: " + Car_Make + "<br>";
-                    submitted_review_summary.InnerHtml += "Rent Days: " + Rent_Days + "<br>";
-                    submitted_review_summary.InnerHtml += "Would you rent this car again? : " + Reviewer_Future_Survey + "<br>";
-                    submitted_review_summary.InnerHtml += "Your over all experience with us : " + Reviewer_Overall_Experience_Text + "<br>";
-                    submitted_review_summary.InnerHtml += "Your suggestion : " + Reviewer_Suggestion + "<br>" + "<br>";
+                    submitted_review_summary.InnerHtml += "The number of days you rented a car: " + Rent_Days + "<br>";
+                    submitted_review_summary.InnerHtml += "Would you rent this car again?: " + Reviewer_Future_Survey + "<br>";
+                    submitted_review_summary.InnerHtml += "Your over all experience with us: " + Reviewer_Overall_Experience_Text + "<br>";
+                    submitted_review_summary.InnerHtml += "Your suggestion: " + Reviewer_Suggestion + "<br>" + "<br>";
 
                     if (Reviewer_Overall_Experience == "very_bad")
                     {
-                        submitted_review_summary.InnerHtml += "Your Overall Review Rating is : 0";
+                        submitted_review_summary.InnerHtml += "Your Overall Review Rating is: 0";
                     }
                     if (Reviewer_Overall_Experience == "bad")
                     {
-                        submitted_review_summary.InnerHtml += "Your Overall Review Rating is : 1";
+                        submitted_review_summary.InnerHtml += "Your Overall Review Rating is: 1";
                     }
                     if (Reviewer_Overall_Experience == "average")
                     {
-                        submitted_review_summary.InnerHtml += "Your Overall Review Rating is : 2";
+                        submitted_review_summary.InnerHtml += "Your Overall Review Rating is: 2";
                     }
                     if (Reviewer_Overall_Experience == "good")
                     {
-                        submitted_review_summary.InnerHtml += "Your Overall Review Rating is : 3";
+                        submitted_review_summary.InnerHtml += "Your Overall Review Rating is: 3";
                     }
                     if (Reviewer_Overall_Experience == "very_good")
                     {
-                        submitted_review_summary.InnerHtml += "Your Overall Review Rating is : 4";
+                        submitted_review_summary.InnerHtml += "Your Overall Review Rating is: 4";
                     }
                     if (Reviewer_Overall_Experience == "excellent")
                     {
-                        submitted_review_summary.InnerHtml += "Your Overall Review Rating is : 5";
+                        submitted_review_summary.InnerHtml += "Your Overall Review Rating is: 5";
                     }
                 }
             }
